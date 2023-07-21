@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 15px;
+    /* height:60px; */
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    position: sticky;
+}
+.h1l{
+    font-size: 50px ;
+    color:white;
+}
+#menu a {
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    color: deeppink;
+}
+
+#about {
+    min-height: 80vh;
+    padding: 90px 50px 50px 50px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assest/about.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    
+}
+#about img {
+    float: right;
+    border-radius: 200px;
+    margin:auto;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+#skill {
+    min-width: fit-content;
+    background-size: cover;
+    background-image: url(./assest/skill.webp);
+    min-height: 500px;
+    padding: 100px 50px 50px 50px;
+}
+.sl {
+    list-style: none;
+    border: 15px solid rgba(226, 43, 144, 0.212);
+    padding: 25px;
+    margin: 15px;
+    color: black;
+    background-color: rgba(226, 198, 213, 0.212);
+    border-radius: 50px;
+}
+
+#project {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(./assest/project.jpg);
+    min-width: fit-content;
+    min-height: 500px;
+    padding: 100px 50px 0px 50px;
+}
+
+#resume {
+    color: aliceblue;
+    min-width: max-content;
+    min-height: 50px;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#contact p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#contact{
+    color: aliceblue;
+}
+#footer {
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
